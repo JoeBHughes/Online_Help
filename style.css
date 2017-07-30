@@ -1,9 +1,13 @@
-﻿/* Default style for links 
+/* Default style for links 
 active=clicked, hover=mouseover, link=unvisited, visited=visited */
 a:active  { color: #00539B; } 
 a:hover   { color: #CA006C; } 
 a:link    { color: #00539B; } 
 a:visited { color: #CA006C; } 
+
+summary:active  { color: #00539B; }
+summary:hover  { color: #CA006C; } 
+summary:visited  { color: #CA006C; } 
 
 a.return {
   text-align: center;
