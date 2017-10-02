@@ -92,6 +92,8 @@ h4 {color: #00539B; font-weight: bold; font-family: Verdana, Arial, sans-serif;
 .img {
   margin: 2em 4em 1em 4em;
   display: block;
+cursor: pointer;
+	
 }
 footer {
   display: block;
