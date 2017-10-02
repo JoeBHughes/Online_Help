@@ -6,8 +6,9 @@ a:link    { color: #00539B; }
 a:visited { color: #CA006C; } 
 
 summary:active  { color: #00539B; }
-summary:hover  { color: #CA006C; } 
-summary:visited  { color: #CA006C; } 
+summary:hover  { color: #CA006C; cursor: pointer; } 
+summary:visited  { color: #CA006C; }
+
 
 a.return {
   text-align: center;
@@ -93,7 +94,9 @@ h4 {color: #00539B; font-weight: bold; font-family: Verdana, Arial, sans-serif;
   margin: 2em 4em 1em 4em;
   display: block;	
 }
-cursor: pointer;
+span.pointer {
+    cursor: pointer;
+}
 
 footer {
   display: block;
